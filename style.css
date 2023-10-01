@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+ letter-spacing: 1px;
+} 
+body{
+ /* padding: 0 20px; */
+ font-family: 'Raleway', sans-serif;
+}
+header{
+ color: white;
+ background-color: #1E293B;
+ display: flex;
+ align-items: baseline;
+ padding: 10px 20px;
+ justify-content: space-between;
+}
+a{
+text-decoration: none;
+padding: 0 10px;
+color: white;
+}
+.dis-sec{
+padding: 15px 0 0 20px;
+line-height: 2rem;
+background-color: #1E293B;  
+color: white;
+display: grid;
+grid-template-columns: 1.4fr 1fr;
+gap: 20px;
+
+height: 250px;
+}
+.dis-info{
+margin-top: 70px;
+
+}
+
+form{
+  margin: 5px 0;
+}
+form input{
+width: 50%;
+outline: none;
+padding: 4px 20px;
+border-radius: 20px;
+}
+form button{
+  background-color: rgb(143, 84, 84);
+  color: rgb(3, 3, 3);
+padding: 4px 5px;
+cursor: pointer;
+outline: none;
+border: none;
+}
+img{
+  height: 280px;
+  border-radius: 20px;
+width: 500px;
+}
+
+.dis-img{
+  border-radius:
+}
+.courses{
+padding: 70px 20px 10px 20px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+text-align: center;
+
+}
+.course{
+  border-radius: 10px;
+border: 1px solid gray;
+padding: 15px;
+}
+.course h3{
+  font-weight: bold;
+margin: 15px 0;
+}
+.course p{
+  
+  word-spacing: 5px;
+text-align: start;
+}
+.box{
+ padding: 20px;
+  display: flex;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 30px;
+}
+.box1{
+  
+  padding: 20px;
+  display: flex;
+  grid-template-columns: 100px 300px;
+  gap: 30px;
+}
+
+.card{
+   gap: 5px;
+   height: fit-content;
+  border-radius: 12px;
+  padding:10px;
+  border: 1px solid #1E293B ;
+  width: 400px;
+  background-color: #1E293B;
+  color: white;
+  flex-direction: column;
+  display: flex;
+}
+/* .card1 h3{
+  display: flex;
+} */
+.user{
+  display: flex;
+  gap: 10px;
+  box-sizing: border-box;
+}
+.userimg{
+  width: 90x;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user img{
+  height: 100% ;
+  width: 100%;
+  object-fit: cover;
+}
+.name{
+  display: block;
+}
+footer{
+  color: white;
+  background-color: #1E293B;
+  display: flex;
+  align-items: baseline;
+  padding: 20px;
+  justify-content: space-between;
+ }
+ .nav1{
+  padding: 0 0 30px 0;
+  display: grid;
+ }
+ .skillzz h1{
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: bolder;
+ }
+ .nav1 a{
+  padding: 5px;
+  letter-spacing: 2px;
+ }
+ .iconss i{
+  margin: 0 15px 0 0;
+ }
